@@ -17,7 +17,25 @@ public class User {
     @JsonIgnore
     private String password;
 
-    private String name;
+    private String role;
+
+    public String getRole() {
+        return role;
+    }
+
+    public void setRole(String role) {
+        this.role = role;
+    }
+
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public void setFirstName(String firstname) {
+        this.firstName = firstname;
+    }
+
+    private String firstName;
     private String lastName;
 
     // Getters and Setters
@@ -43,15 +61,6 @@ public class User {
 
     public void setPassword(String password) {
         this.password = password;
-    }
-
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String Name) {
-        this.name = Name;
     }
 
     public String getLastName() {

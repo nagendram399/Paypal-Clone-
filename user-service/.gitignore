@@ -31,3 +31,15 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# macOS
+.DS_Store
+
+# IntelliJ
+.idea/
+
+# Logs
+*.log
+
+# Build output
+target/
